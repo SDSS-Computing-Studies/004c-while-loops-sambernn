@@ -15,3 +15,11 @@ example:
 Enter a number: 4
 4 8 12 16 20 24 28 32 36 40 44 48
 """
+count = 0
+num = float(input("enter a number:"))
+x = 2
+while count < 10:
+    y = num * x
+    x = x + 1
+    count = count + 1
+    print(y)

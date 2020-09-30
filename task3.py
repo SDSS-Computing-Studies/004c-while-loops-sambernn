@@ -26,6 +26,4 @@ while (num % 2) != 0:
     if (num % 2) != 0:
         print("That is an not even integer")
 
-        
-
 print("That is an even integer")

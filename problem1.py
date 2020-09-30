@@ -17,3 +17,18 @@ outputs:
 Access granted
 Acces denied
 """
+count = 0
+un = ""
+pw = ""
+   
+while un != "admin" and pw != "12345":
+    un = input("enter your username:")
+    pw = input("enter your password:")
+    if un != "admin" and pw != "12345":
+        print("Access denied")
+        count = count + 1
+    if count > 2:
+        print ("Too many attempts")
+        exit()
+
+print("Access granted")
