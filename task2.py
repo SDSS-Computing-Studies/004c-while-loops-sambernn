@@ -20,8 +20,8 @@ un = ""
 pw = ""
 
 while un != "admin" and pw != "12345":
-    un = input("enter your username:\n")
-    pw = input("enter your password:\n")
+    un = input("enter your username:")
+    pw = input("enter your password:")
     if un != "admin" and pw != "12345":
         print("Access denied")
 
