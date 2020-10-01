@@ -22,4 +22,4 @@ while count < 10:
     y = num * x
     x = x + 1
     count = count + 1
-    print(y)
+    print(y,end=" ")

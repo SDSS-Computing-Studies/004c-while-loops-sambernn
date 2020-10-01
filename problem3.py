@@ -16,8 +16,8 @@ Example:
 x = 1
 y = 1
 while x < 100:
-    print(x)
-    print(y)
+    print(x,end=" ")
+    print(y,end=" ")
     x = x + y
     y = y + x
     
